@@ -97,9 +97,9 @@
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "SpielenForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
-            this.Text = "SpielenForm";
-            this.Load += new System.EventHandler(this.SpielenForm_Load);
+            this.Text = "Sokoban";
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.SpielenForm_FormClosed);
+            this.Load += new System.EventHandler(this.SpielenForm_Load);
             this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.SpielenForm_KeyDown);
             this.ResumeLayout(false);
             this.PerformLayout();
