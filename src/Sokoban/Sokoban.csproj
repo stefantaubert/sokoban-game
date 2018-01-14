@@ -14,7 +14,7 @@
     <FileAlignment>512</FileAlignment>
     <StartupObject>
     </StartupObject>
-    <ApplicationIcon>1276591649_ksokoban.ico</ApplicationIcon>
+    <ApplicationIcon>game.ico</ApplicationIcon>
     <FileUpgradeFlags>
     </FileUpgradeFlags>
     <UpgradeBackupLocation>
@@ -120,6 +120,8 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="1276591649_ksokoban.ico" />
+    <Content Include="editor.ico" />
+    <Content Include="game.ico" />
     <None Include="Resources\Ziel1.png" />
     <None Include="Resources\Weiss1.png" />
     <None Include="Resources\SumoZielfeld1.png" />

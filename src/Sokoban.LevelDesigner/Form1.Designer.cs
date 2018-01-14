@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.LevelCollectionName = new System.Windows.Forms.TextBox();
@@ -112,33 +113,33 @@
             this.zielfeldToolStripMenuItem,
             this.löschenToolStripMenuItem});
             this.einfügen.Name = "einfügen";
-            this.einfügen.Size = new System.Drawing.Size(114, 136);
+            this.einfügen.Size = new System.Drawing.Size(119, 136);
             // 
             // wandToolStripMenuItem
             // 
             this.wandToolStripMenuItem.Name = "wandToolStripMenuItem";
-            this.wandToolStripMenuItem.Size = new System.Drawing.Size(113, 22);
+            this.wandToolStripMenuItem.Size = new System.Drawing.Size(118, 22);
             this.wandToolStripMenuItem.Text = "Wand";
             this.wandToolStripMenuItem.Click += new System.EventHandler(this.wandToolStripMenuItem_Click);
             // 
             // pauleToolStripMenuItem
             // 
             this.pauleToolStripMenuItem.Name = "pauleToolStripMenuItem";
-            this.pauleToolStripMenuItem.Size = new System.Drawing.Size(113, 22);
+            this.pauleToolStripMenuItem.Size = new System.Drawing.Size(118, 22);
             this.pauleToolStripMenuItem.Text = "Paule";
             this.pauleToolStripMenuItem.Click += new System.EventHandler(this.pauleToolStripMenuItem_Click);
             // 
             // kisteToolStripMenuItem
             // 
             this.kisteToolStripMenuItem.Name = "kisteToolStripMenuItem";
-            this.kisteToolStripMenuItem.Size = new System.Drawing.Size(113, 22);
+            this.kisteToolStripMenuItem.Size = new System.Drawing.Size(118, 22);
             this.kisteToolStripMenuItem.Text = "Kiste";
             this.kisteToolStripMenuItem.Click += new System.EventHandler(this.kisteToolStripMenuItem_Click);
             // 
             // freiToolStripMenuItem
             // 
             this.freiToolStripMenuItem.Name = "freiToolStripMenuItem";
-            this.freiToolStripMenuItem.Size = new System.Drawing.Size(113, 22);
+            this.freiToolStripMenuItem.Size = new System.Drawing.Size(118, 22);
             this.freiToolStripMenuItem.Text = "Frei";
             this.freiToolStripMenuItem.Click += new System.EventHandler(this.freiToolStripMenuItem_Click);
             // 
@@ -149,34 +150,34 @@
             this.kisteToolStripMenuItem1,
             this.pauleToolStripMenuItem1});
             this.zielfeldToolStripMenuItem.Name = "zielfeldToolStripMenuItem";
-            this.zielfeldToolStripMenuItem.Size = new System.Drawing.Size(113, 22);
+            this.zielfeldToolStripMenuItem.Size = new System.Drawing.Size(118, 22);
             this.zielfeldToolStripMenuItem.Text = "Zielfeld";
             // 
             // normalToolStripMenuItem
             // 
             this.normalToolStripMenuItem.Name = "normalToolStripMenuItem";
-            this.normalToolStripMenuItem.Size = new System.Drawing.Size(107, 22);
+            this.normalToolStripMenuItem.Size = new System.Drawing.Size(114, 22);
             this.normalToolStripMenuItem.Text = "Normal";
             this.normalToolStripMenuItem.Click += new System.EventHandler(this.normalToolStripMenuItem_Click);
             // 
             // kisteToolStripMenuItem1
             // 
             this.kisteToolStripMenuItem1.Name = "kisteToolStripMenuItem1";
-            this.kisteToolStripMenuItem1.Size = new System.Drawing.Size(107, 22);
+            this.kisteToolStripMenuItem1.Size = new System.Drawing.Size(114, 22);
             this.kisteToolStripMenuItem1.Text = "Kiste";
             this.kisteToolStripMenuItem1.Click += new System.EventHandler(this.kisteToolStripMenuItem1_Click);
             // 
             // pauleToolStripMenuItem1
             // 
             this.pauleToolStripMenuItem1.Name = "pauleToolStripMenuItem1";
-            this.pauleToolStripMenuItem1.Size = new System.Drawing.Size(107, 22);
+            this.pauleToolStripMenuItem1.Size = new System.Drawing.Size(114, 22);
             this.pauleToolStripMenuItem1.Text = "Paule";
             this.pauleToolStripMenuItem1.Click += new System.EventHandler(this.pauleToolStripMenuItem1_Click);
             // 
             // löschenToolStripMenuItem
             // 
             this.löschenToolStripMenuItem.Name = "löschenToolStripMenuItem";
-            this.löschenToolStripMenuItem.Size = new System.Drawing.Size(113, 22);
+            this.löschenToolStripMenuItem.Size = new System.Drawing.Size(118, 22);
             this.löschenToolStripMenuItem.Text = "Löschen";
             this.löschenToolStripMenuItem.Click += new System.EventHandler(this.löschenToolStripMenuItem_Click);
             // 
@@ -441,10 +442,10 @@
             this.Controls.Add(this.LevelCollectionName);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.MinimumSize = new System.Drawing.Size(696, 630);
             this.Name = "Form1";
-            this.ShowIcon = false;
             this.Text = "Level Designer Sokoban";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.einfügen.ResumeLayout(false);

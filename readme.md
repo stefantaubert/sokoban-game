@@ -19,3 +19,7 @@ You can create custom levels with the leveleditor:
 <p align="center">
   <img src="/screenshots/leveldesigner.png">
 </p>
+
+# Acknoledgements
+Icons:
+https://www.iconfinder.com/icons/23692/diamond_jewel_ruby_icon

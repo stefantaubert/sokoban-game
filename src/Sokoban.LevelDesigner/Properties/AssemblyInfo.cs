@@ -6,7 +6,7 @@ using System.Runtime.InteropServices;
 // Attribute gesteuert. Ändern Sie diese Attributwerte, um die Informationen zu ändern,
 // die mit einer Assembly verknüpft sind.
 [assembly: AssemblyTitle("Level Designer")]
-[assembly: AssemblyDescription("Level Designer für das Spiel Kisten Paule.")]
+[assembly: AssemblyDescription("Level Designer für das Spiel Sokoban.")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Nowisys IT-Service GmbH")]
 [assembly: AssemblyProduct("Level Designer")]
